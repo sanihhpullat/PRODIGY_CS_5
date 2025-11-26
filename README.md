@@ -5,7 +5,7 @@ Developed a real-time network packet sniffer using Python and Scapy. The tool ca
 To ensure safety and avoid exposing my real network information, all sensitive fields (IP, MAC, ports, payload) are automatically spoofed before being displayed. This allows the tool to demonstrate full packet-sniffing functionality without leaking any actual personal or device data.
 
 ### Why Spoofing Was Used
-Because packet sniffers normally reveal real network details (your actual IP, MAC address, packet payloads, etc.), this project includes a built-in spoofing system that replaces:
+Because packet sniffers normally reveal real network details (my actual IP, MAC address, packet payloads, etc.), this project includes a built-in spoofing system that replaces:
 - Real IP → Fake 10.x.x.x IP  
 - Real MAC → Fake AA:BB:CC:xx:xx:xx  
 - Real Ports → Random safe ports  
