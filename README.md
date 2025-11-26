@@ -25,6 +25,21 @@ This project requires the following:
 - Works on Windows with Npcap  
 - Ethical and safe for educational use
 
+### How to Use
+1. Install Python and Scapy:
+   ```bash
+   pip install scapy
+   ```
+2. Install **Npcap** (Windows) with **WinPcap compatibility mode** enabled.  
+3. Save the script as **sanih_packet_sniffer.py**  
+4. Open Command Prompt inside the folder where the script is saved.  
+5. Run the tool:
+   ```bash
+   python sanih_packet_sniffer.py
+   ```
+6. The program will begin capturing packets and printing **fully spoofed** safe output.  
+7. Press **Ctrl + C** to stop the sniffer.
+
 ### Sample Output (Spoofed)
 === SAFE CAPTURED PACKET ===  
 Source MAC: AA:BB:CC:A3:AE:89  
@@ -36,5 +51,3 @@ Payload (spoofed): 0xd8 0xc6 0xb7 0x3a 0xe5 0x49 0xdd 0x4f 0x09 0x46
 
 ### Purpose
 Created as part of my cybersecurity internship to practice network analysis, packet inspection, Python scripting, and safe handling of sensitive network data.
-
-
